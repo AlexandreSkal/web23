@@ -1,14 +1,15 @@
 import Block from "./block";
 
-let x: number;
-let namePerson: string;
-let dateBirth: Date;
+/**
+ * Blockchain class
+ */
+export default class Blockchain {
+    blocks: Block[]
 
-const block1 = new Block(1,"a")
-
-function sum(n1: number, n2: number): number{
-    return n1 + n2;
+    /**
+     * Blockchain constructor
+     */
+    constructor() {
+        this.blocks = [new Block(0, "geneses")]
+    }
 }
-
-console.log(sum(3,2));
-console.log(block1);

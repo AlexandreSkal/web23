@@ -1,0 +1,44 @@
+
+# Arquivos de ambiente virtual
+venv/
+.env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos de log
+*.log
+
+# Arquivos de depuração
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.iml
+
+# Arquivos gerados automaticamente
+*.sqlite3
+*.db
+.DS_Store
+
+# Arquivos de pacotes Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Arquivos do pytest e cobertura de testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Arquivos temporários de sistemas operacionais
+Thumbs.db
