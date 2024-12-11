@@ -1,3 +1,4 @@
+import {describe, test, expect} from '@jest/globals'
 import Block from "../src/lib/block";
 
 describe("Block tests", () => {

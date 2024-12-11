@@ -5,8 +5,8 @@
   "scripts": {
     "test": "jest",
     "compile": "npx tsc",
-    "start": "node ./dist/src/blockchain.js",
-    "dev": "nodemon --watch ./src --ext ts --exec npx ts-node ./src/blockchain.ts"
+    "start": "node ./dist/src/lib/blockchain.js",
+    "dev": "nodemon --watch ./src --ext ts --exec npx ts-node ./src/lib/blockchain.ts"
   },
   "keywords": [],
   "author": "",

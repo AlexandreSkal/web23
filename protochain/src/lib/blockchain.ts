@@ -1,5 +1,4 @@
 import Block from "./block";
-
 /**
  * Blockchain class
  */
